@@ -7,15 +7,15 @@ export default function About(){
     const [data, setData] = useState("sky");
     const [gambar, setGambar] = useState();
     const picture= [
-         "/1.png",
-         "/2.jpg",
-         "/3.png"
+         "/React-Pertamaku/1.png",
+         "/React-Pertamaku/2.jpg",
+         "/React-Pertamaku/3.png"
     ];
 
     return (
         <div>
             <h1>About</h1>
-            <HyperLink to="/">
+            <HyperLink to="/React-Pertamaku/">
         <p>Go To Home</p>
       </HyperLink>
         

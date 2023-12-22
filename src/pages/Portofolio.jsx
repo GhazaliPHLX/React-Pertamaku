@@ -7,7 +7,7 @@ export default function Portofolio() {
   const toggleMenu = () => setShow(!show);
   const image = ["/bunga.jpg", "/fotbar.jpg", "gojo.jpg"];
   const portoGambar = [
-    "/fotbar.jpg"
+    "/React-Pertamaku/fotbar.jpg"
   ];
 
   return (
@@ -157,7 +157,7 @@ export default function Portofolio() {
           </div>
           <div className=" col-span-12 -order-1 md:order-1 md:col-span-6 p-20 md:p-28 ">
             <div className="rounded-full  overflow-hidden w-fit">
-              <img src="bunga.jpg" alt='{""}/' />
+              <img src="/React-Pertamaku/bunga.jpg" alt='{""}/' />
             </div>
           </div>
         </div>

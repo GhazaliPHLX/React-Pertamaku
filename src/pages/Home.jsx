@@ -30,13 +30,13 @@ export default function Home() {
     <div className="container mx-auto py-20">
       <h1 className="text-5xl text-cyan-300 text-center font-teko">Home Pages</h1>
       <div className="flex gap-8 justify-center my-6">
-      <HyperLink to="/about">
+      <HyperLink to="/React-Pertamaku/about/">
         <p>Go To About</p>
       </HyperLink>
-      <HyperLink to="/cuaca">
+      <HyperLink to="/React-Pertamaku/cuaca/">
         <p>Go To Cuaca</p>
       </HyperLink>
-      <HyperLink to="/portofolio">
+      <HyperLink to="/React-Pertamaku/portofolio/">
       <p>Go To Portofolio</p>
       </HyperLink>
       </div>
