@@ -1,6 +1,5 @@
 import { useState } from "react";
-import HyperLink from "../Components/HyperLink";
-import PortoCard from "../Components/portocard";
+import PortoCard from "../Components/PortoCard";
 
 export default function Portofolio() {
   const [show, setShow] = useState(false);
